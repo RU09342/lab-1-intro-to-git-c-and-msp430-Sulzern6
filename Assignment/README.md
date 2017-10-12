@@ -1,6 +1,6 @@
-#Nathan Sulzer
-#Embedded Systems
-#Lab 1 
+# Nathan Sulzer
+# Embedded Systems
+# Lab 1 
 # Math Function For MSP430
 This File is a math function for the ambiguous processor MSP430 that can perform 5 different functions on a set up 2 intergrals. This can be used for systems that are recieving math operations from a outside communication like UART.
 
@@ -24,35 +24,35 @@ char which is valid for the following values ['+', '-', '*', '/', '%']. Math() w
 
 ## Add (char = '+')
 Finds the Sum of the integer inputs uses operator "+".
-### Example (10 + 20)
+### Example (13 + 9)
 ```c
-Math( 10, 20, '+');
+math(13,9,'+');
 ```
 
 ## Subtract (char = '-')
 Finds the Difference of the integer inputs uses operator "-".
-### Example (10 - 20)
+### Example (4 - 14)
 ```c
-Math( 10, 20, '-');
+math(4,14,'-');
 ```
 
 ## Multiply (char = '*')
 Finds the Product of the integer inputs uses operator "*".
-### Example (10 * 20)
+### Example (8  * 6 )
 ```c
-Math( 10, 20, '*');
+math(8,6,'*');
 ```
 
 ## Divide (char = '/')
 Finds the Quotient of the integer inputs uses operator "/". The first int will be the dividend and the second int will be the divisor.
-### Example (10 / 2)
+### Example (12 / 3)
 ```c
-Math( 10, 2, '/');
+math(12,3,'/');
 ```
 
 ## Modulo (char = '%')
 Finds the Remainder of the division of the integer inputs uses operator "%". The first int will be the dividend and the second int will be the divisor.
-### Example (10 % 2)
+### Example (12 % 5)
 ```c
-Math( 10, 2, '/');
+math(12,5,'%');
 ```
